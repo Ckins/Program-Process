@@ -43,8 +43,8 @@ var swap = function(a, b) {
 }
 
 var sortableObj = function(dict) {
-	this.dict = dict;
-	this.ths = dict.table.getElementsByTagName('th');
+	  this.dict = dict;
+	  this.ths = dict.table.getElementsByTagName('th');
     this.tr = dict.table.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
     this.listen();
 }
